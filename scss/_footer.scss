@@ -1,0 +1,12 @@
+
+footer {
+    height: 40px;
+    background-color: $green-700;
+
+    @include breakpoint-up(large) {
+        height: 70px;
+    }
+}
+
+
+

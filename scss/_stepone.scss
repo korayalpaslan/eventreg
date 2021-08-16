@@ -1,0 +1,43 @@
+
+.stepone {
+    min-height: 100vh;
+}
+
+.hero-stepone {
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 15vh;
+
+    @include breakpoint-up(large) {
+        height: 20vh
+    }
+}
+
+.steps {
+    background-color: $green;
+    height: 30px;
+    width: 30px;
+
+    @include breakpoint-up(medium) {
+        height: 50px;
+        width: 50px;
+
+    }
+
+}
+
+.disabled-steps {
+    background-color: $gray-200;
+    height: 30px;
+    width: 30px;
+    cursor: not-allowed;
+
+    @include breakpoint-up(medium) {
+        height: 50px;
+        width: 50px;
+
+    }
+}

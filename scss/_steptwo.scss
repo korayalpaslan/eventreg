@@ -1,0 +1,12 @@
+.step-previous {
+    background-color: $green-300;
+    height: 30px;
+    width: 30px;
+    
+
+    @include breakpoint-up(medium) {
+        height: 50px;
+        width: 50px;
+
+    }
+}

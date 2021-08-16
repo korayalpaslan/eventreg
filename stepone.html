@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Easybank Dönem Toplantısı</title>
+</head>
+<body>
+
+    <div class="stepone d-flex flex-column">
+
+        <nav class="navbar navbar-light bg-light navbar-expand-md">
+            <div class="container">
+              <a href="index.html" class="navbar-brand">
+                  <img src="./images/logo.svg" alt="Logo" class="img-fluid logo">
+              </a>
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarResponsiveMedium" aria-controls="navbarResponsiveMedium" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsiveMedium">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link text-dark text-uppercase">Ana Sayfa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="stepone.html" class="nav-link text-dark text-uppercase">Kayıt</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
+          <section class="hero-stepone">
+    
+          </section>
+
+          <div class="container mt-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-12 col-md-4 d-flex flex-row flex-md-column align-items-center">
+                <h6 class="mb-3 steps rounded-circle d-flex justify-content-center align-items-center">
+                  <span class="text-white ">1.</span>
+               </h6>
+                <p class="text-center ms-2 ms-md-0">Kayıt İşlemine Başla</p>
+              </div>
+              <div class="col-12 col-md-4 d-flex flex-row flex-md-column align-items-center">
+                <h6 class="mb-3 disabled-steps rounded-circle d-flex justify-content-center align-items-center">
+                  <span class="text-muted">2.</span>
+               </h6>
+                <p class="text-center text-muted ms-2 ms-md-0">Kişisel Bilgiler</p>
+              </div>
+              <div class="col-12 col-md-4 d-flex flex-row flex-md-column align-items-center">
+                <h6 class="mb-3 disabled-steps rounded-circle d-flex justify-content-center align-items-center">
+                  <span class="text-muted">3.</span>
+               </h6>
+                <p class="text-center text-muted ms-2 ms-md-0">Onaylama</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-5">
+            <form>
+
+              <div class="row d-flex justify-content-center">
+                <label for="horizontalEmail" class="col-md-2 col-form-label fs-6 text-muted d-flex justify-content-start justify-content-md-end">
+                  <p>Kayıtlı Email Adresi<span class="text-danger"> *</span></p>
+                </label>
+                <div class="col-md-8">
+                  <input type="email" class="form-control" id="input">
+                  <p>
+                  <small class="text-danger invisible">Lütfen geçerli bir mail adresi giriniz.</small>
+                </p>
+                </div>
+              </div>
+
+            </form>
+
+
+            <div class="d-flex justify-content-center pt-5">
+              <a href="steptwo.html" class="btn btn-primary btn-success px-5 me-2" role="button" id="register">İlerle
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg>
+            </a>
+            </div>
+
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-link fs-6">
+                <small>Zaten Kayıtlıyım</small>
+              </button>
+            </div>
+
+          </div>
+    
+          <footer class="d-flex justify-content-center align-items-center mt-auto">
+    
+            <img src="./images/logo-dark.svg" alt="Dark Logo" class="img-fluid">
+    
+          </footer>
+
+    </div>
+
+    <script src="./bundles/bundle.js"></script>
+</body>
+</html>

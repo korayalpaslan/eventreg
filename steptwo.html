@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Easybank Dönem Toplantısı</title>
+</head>
+<body>
+
+    <div class="steptwo d-flex flex-column">
+
+        <nav class="navbar navbar-light bg-light navbar-expand-md">
+            <div class="container">
+              <a href="index.html" class="navbar-brand">
+                  <img src="./images/logo.svg" alt="Logo" class="img-fluid logo">
+              </a>
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarResponsiveMedium" aria-controls="navbarResponsiveMedium" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsiveMedium">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link text-dark text-uppercase">Ana Sayfa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="stepone.html" class="nav-link text-dark text-uppercase">Kayıt</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
+          <section class="hero-stepone">
+    
+          </section>
+
+          <div class="container mt-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-12 col-md-4 d-flex flex-row flex-md-column align-items-center">
+                <h6 class="mb-3 step-previous rounded-circle d-flex justify-content-center align-items-center">
+                  <span class="text-white ">1.</span>
+               </h6>
+                <p class="text-center text-muted ms-2 ms-md-0">Kayıt İşlemine Başla</p>
+              </div>
+              <div class="col-12 col-md-4 d-flex flex-row flex-md-column align-items-center">
+                <h6 class="mb-3 steps rounded-circle d-flex justify-content-center align-items-center">
+                  <span class="text-white">2.</span>
+               </h6>
+                <p class="text-center ms-2 ms-md-0">Kişisel Bilgiler</p>
+              </div>
+              <div class="col-12 col-md-4 d-flex flex-row flex-md-column align-items-center">
+                <h6 class="mb-3 disabled-steps rounded-circle d-flex justify-content-center align-items-center">
+                  <span class="text-muted">3.</span>
+               </h6>
+                <p class="text-center text-muted ms-2 ms-md-0">Onaylama</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-5">
+
+            <form>
+
+                <div class="row d-flex justify-content-start mb-3">
+
+                    <label for="name" class="col-md-2 col-form-label fs-6 text-muted d-flex justify-content-start justify-content-md-end">
+                        <p class="mb-0">Adınız<span class="text-danger"> *</span></p>
+                    </label>
+                      
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="name">
+                    </div>
+
+                </div>
+
+                <div class="row d-flex justify-content-start mb-3">
+
+                    <label for="surname" class="col-md-2 col-form-label fs-6 text-muted d-flex justify-content-start justify-content-md-end">
+                        <p class="mb-0">Soyadınız<span class="text-danger"> *</span></p>
+                    </label>
+                      
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="surname">
+                    </div>
+
+                </div>
+
+                <div class="row d-flex justify-content-start mb-3">
+
+                    <label for="company" class="col-md-2 col-form-label fs-6 text-muted d-flex justify-content-start justify-content-md-end">
+                        <p class="mb-0">Şirket Adı<span class="text-danger"> *</span></p>
+                    </label>
+                      
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="company">
+                    </div>
+
+                </div>
+
+                <div class="row d-flex justify-content-start mb-3">
+
+                    <label for="title" class="col-md-2 col-form-label fs-6 text-muted d-flex justify-content-start justify-content-md-end">
+                        <p class="mb-0">Ünvanınız<span class="text-danger"> *</span></p>
+                    </label>
+                      
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="title">
+                    </div>
+
+                </div>
+
+                <div class="row d-flex justify-content-start mb-3">
+
+                    <label for="phone" class="col-md-2 col-form-label fs-6 text-muted d-flex justify-content-start justify-content-md-end">
+                        <p class="mb-0">Telefon Numaranız<span class="text-danger"> *</span></p>
+                    </label>
+                      
+                    <div class="col-md-9">
+                        <div class="input-group">
+                            <span class="input-group-text" id="phone">+90</span>
+                            <input type="tel" class="form-control" placeholder="0530 001 01 01" aria-label="Hashtag" aria-describedby="before">
+                          </div>
+                    </div>
+
+                </div>
+
+                <div class="row mb-3">
+                    <legend class="col-md-2 col-form-label pt-0 fs-6 text-muted d-flex justify-content-start justify-content-md-end">
+                        <p class="mb-0">Seyahat Tercihiniz<span class="text-danger"> *</span></p>
+                    </legend>
+                    <div class="col-md-9">
+                      <div class="form-check">
+                        <input type="radio" class="form-check-input" name="horizontalRadio" id="horizontalRadio1">
+                        <label class="form-check-label fs-6" for="horizontalRadio1">Havayolu</label>
+                      </div>
+                      <div class="form-check">
+                        <input type="radio" class="form-check-input" name="horizontalRadio" id="horizontalRadio2">
+                        <label class="form-check-label fs-6" for="horizontalRadio2">Kendi aracım ile geleceğim.</label>
+                      </div>
+                      <div class="form-check">
+                        <input type="radio" class="form-check-input" name="horizontalRadio" id="horizontalRadio3">
+                        <label class="form-check-label fs-6" for="horizontalRadio3">Daha sonra bilgi vereceğim.</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row d-flex justify-content-start mb-3">
+
+                    <label for="phone" class="col-md-2 col-form-label fs-6 text-muted d-flex justify-content-start justify-content-md-end">
+                        <p class="mb-0">T-Shirt Beden Tercihiniz</p>
+                    </label>
+                      
+                    <div class="col-md-9">
+
+                        <select class="form-select" aria-label="Default select" id="inputSelect">
+                            <option selected="">Beden</option>
+                            <option value="1">XS</option>
+                            <option value="2">Small</option>
+                            <option value="3">Medium</option>
+                            <option value="4">Large</option>
+                            <option value="5">XL</option>
+                        </select>
+       
+                    </div>
+
+                </div>
+
+                <div class="row d-flex justify-content-start mb-3">
+
+                    <label for="diet" class="col-md-2 col-form-label fs-6 text-muted d-flex justify-content-start justify-content-md-end">
+                        <p class="mb-0">Özel Not</p>
+                    </label>
+                      
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="diet">
+                    </div>
+
+                </div>
+
+                <div class="row d-flex justify-content-start align-items-center mb-3">
+
+                  <label for="diet" class="col-md-2 col-form-label fs-6 text-muted d-flex justify-content-start justify-content-md-end">
+                      <p class="mb-0">KVKK Onayı<span class="text-danger"> *</span></p>
+                  </label>
+                    
+                  <div class="col-md-9">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="checkDefault1">
+                      <label class="form-check-label" for="checkDefault1">
+
+                        <button type="button" class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#modalExtraLarge">Aydınlatma Metnini</button>
+                        
+                        <div class="modal fade" id="modalExtraLarge" tabindex="-1" aria-labelledby="modalExtraLargeTitle" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="modalExtraLargeTitle">KVKK Aydınlatma Metni</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <p>6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) uyarınca, Şirketimiz tarafından, Veri Sorumlusu sıfatıyla, kişisel verileriniz, iş amaçlarıyla bağlı olarak, aşağıda açıklandığı çerçevede kullanılmak, kaydedilmek, saklanmak, güncellenmek, aktarılmak ve/veya sınıflandırılmak suretiyle işlenecektir.  Bu kapsamda Şirketimiz tarafından başta özel hayatın gizliliği olmak üzere, kişilerin temel hak ve özgürlüklerini korumak ve kişisel verilerin korunması amacıyla düzenlenen Kanun ve Yönetmelikler gereğince Şirketimiz, kişisel verilerinizin hukuka aykırı olarak işlenmesini önleme, hukuka aykırı olarak erişilmesini önleme ve muhafazasını sağlama amacıyla, uygun güvenlik düzeyini temin etmeye yönelik tüm teknik ve idari tedbirleri almaktadır.
+                                <br>
+                                <br>
+
+                                Bu metnin hedef kitlesi, Şirketimiz çalışanları veya Şirketimize iş başvurusu yapmış olan çalışan adayları dışındaki, Şirketimiz tarafından kişisel verileri işlenen tüm gerçek kişilerdir.
+                                  
+                                Veri sorumlusu sıfatıyla işlenen kişisel verilere, burada belirtilenlerle sınırlı sayıda olmamak üzere aşağıda yer verilmektedir;
+                                <br>
+                                <br>  
+                                İsim, soy isim, T.C. kimlik numarası, adres, telefon numarası, e-posta adresi, imza, fiziksel mekan/güvenlik görüntü kaydı, çağrı merkezi/hizmet kalitesi ses kaydı, banka hesap numarası, cookie kayıtları
+                                  
+                                Kişisel verilerin işlenme amaçları ve hukuki sebepleri; Tarafınızca paylaşılan kişisel verileriniz;
+                                
+                                Şirketimiz tarafından sunulan ürün ve hizmetlerden sizleri ve/veya temsil ettiğiniz kurum ve kuruluşları faydalandırmak için, Şirketimizin ticari ve iş stratejilerinin belirlenmesi ve uygulanması, pazarlama faaliyetlerinin yapılması, iş geliştirme ve planlama faaliyetlerinin gerçekleştirilmesi dahil ve fakat bunlarla sınırlı olmamak üzere gerekli çalışmaların yürütülmesi,
+                                Şirketimiz tarafından yürütülen iletişime yönelik idari operasyonların yürütülmesi,
+                                Şirketimizin kullanımda olan lokasyonların fiziksel güvenliğinin ve denetiminin sağlanması,
+                                İş ortağı/müşteri/tedarikçi (yetkili veya çalışanları) ilişkilerinin kurulması,
+                                İş ortaklarımız, tedarikçilerimiz veya sair üçüncü kişilerle birlikte sunulan ürün ve hizmetlere ilişkin sözleşme gereklerinin ve finansal mutabakatın sağlanması,
+                                Şirketimizin insan kaynakları politikalarının yürütülmesi,
+                                Şirketimizin çağrı merkezinin aranması veya internet sayfasının kullanılması
+                                ve/veya
+                                  
+                                Şirketimizin düzenlediği eğitim, seminer veya organizasyonlara katılım sağlanması amacıyla işlenecektir.
+                                Kişisel verilerin toplanma ve saklanma yöntemi; Şirketimizle paylaştığınız kişisel verileriniz, otomatik ya da otomatik olmayan yöntemlerle, ofisler, şubeler, çağrı merkezi, internet sitesi, sosyal medya mecraları, mobil uygulamalar ve benzeri vasıtalarla sözlü, yazılı ya da elektronik olarak toplanabilir. Kişisel verileriniz elektronik ve/veya fiziksel ortamlarda saklanacaktır. Şirketimiz tarafından temin edilen ve saklanan kişisel verilerinizin saklandıkları ortamlarda yetkisiz erişime maruz kalmamaları, manipülasyona uğramamaları, kaybolmamaları ve zarar görmemeleri amacıyla gereken iş süreçlerinin tasarımı ile teknik güvenlik altyapı geliştirmeleri uygulanmaktadır.
+                                <br>
+                                <br>  
+                                Kişisel verileriniz, size bildirilen amaçlar ve kapsam dışında kullanılmamak kaydı ile gerekli tüm bilgi güvenliği tedbirleri de alınarak işlenecek ve yasal saklama süresince veya böyle bir süre öngörülmemişse işleme amacının gerekli kıldığı süre boyunca saklanacak ve işlenecektir. Bu süre sona erdiğinde, kişisel verileriniz silinme, yok edilme ya da anonimleştirme yöntemleri ile Şirketimizin veri akışlarından çıkarılacaktır.
+                                <br>
+                                <br>
+                                   
+                                  
+                                Kişisel Verilerin aktarılması;
+                                <br>
+                                <br>  
+                                Kişisel verileriniz, Kanunlar ve sair mevzuat kapsamında ve açıklanan amaçlarla;
+                                <br>
+                                <br> 
+                                Easybank A.Ş. ve grup şirketlerine,
+                                Yetki vermiş olduğumuz, Şirketimiz nam ve hesabına faaliyette bulunan şirketler, temsilcilerimize,
+                                Düzenleyici ve denetleyici kurumlara, kişisel verilerinizi tabi olduğu kanunlarında açıkça talep etmeye yetkili olan kamu kurum veya kuruluşlara,
+                                Belirtilen amaçlar kapsamında iş ortaklıkları, tedarikçi ve yüklenici şirketler, bankalar, kredi risk ve finans kuruluşları ve sair gerçek veya tüzel kişilere,
+                                Vergi ve benzeri danışmanlara, yasal takip süreçleri ile ilgili zorunlu kişilere, kurum ve kuruluşlara ve denetimciler de dâhil olmak üzere danışmanlık aldığımız üçüncü kişilere ve bunlarla sınırlı olmaksızın, yurt içinde ve yurt dışında, yukarıda belirtilen amaçlarla iş ortakları, hizmet alınan üçüncü kişi, yetkilendirilen kişi ve kuruluşlara aktarılabilecektir.
+                                KVKK’nın 11. maddesi gereği haklarınız; Şirketimize başvurarak, kişisel verilerinizin;
+                                <br>
+                                <br> 
+                                İşlenip işlenmediğini öğrenme,
+                                İşlenmişse bilgi talep etme,
+                                İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme,
+                                Yurt içinde / yurt dışında aktarıldığı 3. kişileri bilme,
+                                Eksik / yanlış işlenmişse düzeltilmesini isteme,
+                                KVKK’nın 7. maddesinde öngörülen şartlar çerçevesinde silinmesini / yok edilmesini isteme,
+                                Aktarıldığı 3. kişilere yukarıda sayılan (e) ve (f) bentleri uyarınca yapılan işlemlerin bildirilmesini isteme,
+                                Münhasıran otomatik sistemler ile analiz edilmesi nedeniyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme,
+                                Kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme haklarına sahipsiniz.
+                                KVK Kanunu’nun 13. maddesinin 1. fıkrası gereğince, yukarıda belirtilen haklarınızı kullanmak ile ilgili talebinizi, yazılı olarak veya Kişisel Verileri Koruma Kurulu’nun belirlediği diğer yöntemlerle Şirketimize iletebilirsiniz.      
+                                <br>
+                                <br>  
+                                Yukarıda belirtilen haklarınızı kullanmak için kimliğinizi tespit edici gerekli bilgiler ile talep dilekçenizi bizzat elden teslim edebilir, noter kanalıyla veya Kişisel Verileri Koruma Kurulu tarafından belirlenen diğer yöntemler ile gönderebilir veya easybank@hs03.tr adresine güvenli elektronik imzalı olarak iletebilirsiniz.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        okudum ve onaylıyorum</label>
+                    </div>
+                  </div>
+
+              </div>
+
+            </form>
+
+            <div class="d-flex justify-content-center py-5">
+
+                <a href="stepone.html" class="btn btn-primary btn-success px-3 me-2" role="button" id="register">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle-fill me-1" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                    </svg>Geri
+                </a>
+
+                <a href="stepthree.html" class="btn btn-primary btn-success px-3 me-2" role="button" id="register">İlerle
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>
+                </a>
+            </div>
+
+          </div>
+
+          <footer class="d-flex justify-content-center align-items-center">
+
+            <img src="./images/logo-dark.svg" alt="Dark Logo" class="img-fluid">
+    
+        </footer>
+    
+    </div>
+
+
+
+    <script src="./bundles/bundle.js"></script>
+</body>
+</html>
